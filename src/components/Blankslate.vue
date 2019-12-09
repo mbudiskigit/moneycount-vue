@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     redirectToNewProcess: function (event) {
-      
+      this.$router.push("/processing/" + this.currencySelected);
     }
   }
 }
